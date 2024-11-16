@@ -1,3 +1,23 @@
+<?php
+session_start(); // Start the session to store session variables
+
+// Check if the user is already logged in
+if (isset($_SESSION['email'])) {
+    // If logged in, redirect to dashboard
+    header('Location: dashboard.php');
+    exit;
+}
+
+// Predefined users (email => password)
+$users = [
+    'user1@email.com' => 'password1', // password for user1
+    'user2@email.com' => 'password2', // password for user2
+    'user3@email.com' => 'password3', // password for user3
+    'user4@email.com' => 'password4', // password for user4
+    'user5@email.com' => 'password5'  // password for user5
+];
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -9,7 +29,6 @@
 <body>
     <div class="container d-flex justify-content-center align-items-center min-vh-100">
         <div class="w-100" style="max-width: 400px;">
-
             <!-- Error Message -->
             <?php if (!empty($loginError)): ?>
                 <div id="error-box" class="alert alert-danger" role="alert">
