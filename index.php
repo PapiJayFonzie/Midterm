@@ -18,7 +18,7 @@
                     <form method="POST" id="login-form">
                         <div class="mb-3">
                             <label for="email" class="form-label">Email address</label>
-                            <input type="email" class="form-control" id="email" name="email" value="<?php echo htmlspecialchars($email); ?>" placeholder="Enter email">
+                            <input type="email" class="form-control" id="email" name="email" placeholder="Enter email">
                         </div>
                         <div class="mb-3">
                             <label for="password" class="form-label">Password</label>
