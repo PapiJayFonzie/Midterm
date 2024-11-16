@@ -10,11 +10,10 @@ if (isset($_SESSION['email'])) {
 
 // Predefined users (email => password)
 $users = [
-    'user1@email.com' => 'password1', // password for user1
-    'user2@email.com' => 'password2', // password for user2
-    'user3@email.com' => 'password3', // password for user3
-    'user4@email.com' => 'password4', // password for user4
-    'user5@email.com' => 'password5'  // password for user5
+    'US1@email.com' => 'P1', 
+    'US2@email.com' => 'P2', 
+    'US3@email.com' => 'P3', 
+   
 ];
 
 // Initialize variables
