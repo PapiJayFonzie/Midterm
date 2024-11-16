@@ -8,7 +8,7 @@
 </head>
 <body>
     <div class="container d-flex justify-content-center align-items-center min-vh-100">
-        <div class="w-100" style="max-width: 600px;">
+        <div class="w-100" style="max-width: 400px;">
 
                     
             
