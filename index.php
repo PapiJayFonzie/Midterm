@@ -16,6 +16,13 @@ $users = [
     'user4@email.com' => 'password4', // password for user4
     'user5@email.com' => 'password5'  // password for user5
 ];
+
+// Initialize variables
+$email = $password = '';
+$emailErr = $passwordErr = '';
+$errorDetails = [];
+$loginError = '';
+
 ?>
 
 <!DOCTYPE html>
