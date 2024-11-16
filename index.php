@@ -8,9 +8,10 @@
 </head>
 <body>
     <div class="container d-flex justify-content-center align-items-center min-vh-100">
-        <div class="w-100" style="max-width: 400px;">
+        <div class="w-100" style="max-width: 600px;">
 
-
+                    
+            
             <!-- Login Form -->
             <div class="card shadow-sm">
                 <div class="card-body">
