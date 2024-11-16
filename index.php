@@ -10,6 +10,17 @@
     <div class="container d-flex justify-content-center align-items-center min-vh-100">
         <div class="w-100" style="max-width: 400px;">
 
+            <!-- Error Message -->
+            <?php if (!empty($loginError)): ?>
+                <div id="error-box" class="alert alert-danger" role="alert">
+                    <strong><?php echo $loginError; ?></strong>
+                    <ul>
+                        <?php foreach ($errorDetails as $error): ?>
+                            <li><?php echo $error; ?></li>
+                        <?php endforeach; ?>
+                    </ul>
+                </div>
+            <?php endif; ?>
                     
             
             <!-- Login Form -->
